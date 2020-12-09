@@ -7,7 +7,7 @@ export default function Logo() {
     }
     return (
         <div>
-            <h2 className="logo"><span style={listStyle}>Logo</span> <span style={{color: 'red', fontSize: 'bold'}}>& </span><span style={{fontSize: '30px'}}>9ja</span></h2>
+            <h2 style={{marginLeft: '20px'}}><span style={listStyle}>Logo</span> <span style={{color: 'red', fontSize: 'bold'}}>& </span><span style={{fontSize: '30px'}}>9ja</span></h2>
         </div>
     )
 }
